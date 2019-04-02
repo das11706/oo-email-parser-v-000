@@ -7,7 +7,7 @@ class EmailParser
 
   def parse
     emails.split(/, /)
-    emials
+    @emials
 
   end
 
