@@ -9,7 +9,4 @@ class EmailParser
    parse
     @emails.split(/, |\s/).uniq
   end
-
 end
-
-#(/[\s,']/)
