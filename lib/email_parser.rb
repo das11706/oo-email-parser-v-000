@@ -6,7 +6,7 @@ class EmailParser
   end
 
   def parse
-    emails.split(/\W /)
+    emails.split(/\W\s /)
 
   end
 
